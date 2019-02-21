@@ -1,0 +1,371 @@
+[
+    {
+        "id": "100266699",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100266699?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-02-22T19:00:13",
+        "description": "",
+        "venue": {
+            "country": "Australia",
+            "city": "Melbourne",
+            "latitude": "-37.8136276",
+            "name": "Rod Laver Arena",
+            "region": "",
+            "longitude": "144.9630576"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100266699?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100266703",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100266703?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-02-25T19:00:23",
+        "description": "",
+        "venue": {
+            "country": "Japan",
+            "city": "Tokyo",
+            "latitude": "35.7034611",
+            "name": "Tokyo Dome",
+            "region": "Tokyo",
+            "longitude": "139.7545086"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100266703?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100266728",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100266728?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-02-27T19:00:33",
+        "description": "",
+        "venue": {
+            "country": "South Korea",
+            "city": "Seoul",
+            "latitude": "37.498222",
+            "name": "Gocheok Sky Dome",
+            "region": "",
+            "longitude": "126.86725"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100266728?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100266731",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100266731?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-03-01T19:00:36",
+        "description": "",
+        "venue": {
+            "country": "Taiwan",
+            "city": "Kaohsiung City",
+            "latitude": "22.7030861",
+            "name": "National Stadium",
+            "region": "",
+            "longitude": "120.2944884"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100266731?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100266746",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100266746?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-03-03T19:00:44",
+        "description": "",
+        "venue": {
+            "country": "China",
+            "city": "Macau",
+            "latitude": "22.198745",
+            "name": "Venetian Cotai Arena",
+            "region": "",
+            "longitude": "113.543873"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100266746?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100266748",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100266748?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-03-05T19:00:07",
+        "description": "",
+        "venue": {
+            "country": "Philippines",
+            "city": "Manila",
+            "latitude": "14.5352312",
+            "name": "SM Mall Of Asia",
+            "region": "",
+            "longitude": "120.98211049999998"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100266748?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100266758",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100266758?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-03-07T19:00:41",
+        "description": "",
+        "venue": {
+            "country": "Singapore",
+            "city": "Singapore",
+            "latitude": "1.352083",
+            "name": "NATIONAL STADIUM",
+            "region": "",
+            "longitude": "103.819836"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100266758?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100266766",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100266766?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-03-09T19:00:34",
+        "description": "",
+        "venue": {
+            "country": "Thailand",
+            "city": "Bangkok",
+            "latitude": "13.82031",
+            "name": "CHALLENGER HALL",
+            "region": "",
+            "longitude": "100.6647101"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100266766?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100271623",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100271623?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-06-01T19:00:44",
+        "description": "",
+        "venue": {
+            "country": "Denmark",
+            "city": "Aalborg",
+            "latitude": "57.0488195",
+            "name": "Mollenpark",
+            "region": "",
+            "longitude": "9.921747"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100271623?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100271604",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100271604?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-06-03T19:00:11",
+        "description": "",
+        "venue": {
+            "country": "Germany",
+            "city": "Cologne",
+            "latitude": "50.937531",
+            "name": "Lanxess Arena",
+            "region": "",
+            "longitude": "6.9602786"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100271604?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100271626",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100271626?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-06-05T19:00:34",
+        "description": "",
+        "venue": {
+            "country": "Czech Republic",
+            "city": "Prague",
+            "latitude": "50.0755381",
+            "name": "O2 ARENA",
+            "region": "",
+            "longitude": "14.4378005"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100271626?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            },
+            {
+                "type": "VIP",
+                "url": "https:\/\/www.bandsintown.com\/t\/100271626?app_id=codingbootcamp\\',&came_from=267&custom=true&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100266776",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100266776?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-06-06T19:00:29",
+        "description": "",
+        "venue": {
+            "country": "Poland",
+            "city": "Kraków",
+            "latitude": "50.067192",
+            "name": "Tauron Arena",
+            "region": "",
+            "longitude": "19.9589015"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100266776?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100271640",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100271640?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-06-10T19:00:09",
+        "description": "",
+        "venue": {
+            "country": "Netherlands",
+            "city": "Amsterdam",
+            "latitude": "52.3702157",
+            "name": "Ziggo Dome",
+            "region": "",
+            "longitude": "4.895167900000001"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100271640?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    },
+    {
+        "id": "100271631",
+        "artist_id": "510",
+        "url": "https:\/\/www.bandsintown.com\/e\/100271631?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+        "on_sale_datetime": "",
+        "datetime": "2019-06-11T19:00:06",
+        "description": "",
+        "venue": {
+            "country": "France",
+            "city": "Paris",
+            "latitude": "48.85661400000001",
+            "name": "AccorHotels Arena",
+            "region": "",
+            "longitude": "2.3522219"
+        },
+        "lineup": [
+            "Maroon 5"
+        ],
+        "offers": [
+            {
+                "type": "Tickets",
+                "url": "https:\/\/www.bandsintown.com\/t\/100271631?app_id=codingbootcamp\\',&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+                "status": "available"
+            }
+        ]
+    }
+]
