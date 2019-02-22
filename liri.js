@@ -59,6 +59,16 @@ function buildString() {
     return output;
 }
 
+function printBreak() {
+    let printString = '+';
+
+    for(let i = 1; i < 115; i++) {
+        printString += "-";
+    }
+
+    return printString;
+}
+
 // Global variable declarations
 // Allow using keys withouth directly exposing them
 require("dotenv").config();
@@ -163,17 +173,20 @@ if (process.argv[2]) {
                 console.log(`I'm sorry Dave, I couldn't find any songs titled "${input}".`);
             }
             else {
+
+                
+                console.log(`+++ Hello Dave, here are the Spotify results for ${input}:    +++`);
+
                 for (let j = 0; j < data.tracks.items.length; j++) {
 
-                    console.log("------------------------------------------------");
-                    console.log(`Hit #${j + 1}:`);
-
+                    console.log(printBreak());
+                    console.log(`+ Hit #${j + 1}:`);
                     for (let i = 0; i < data.tracks.items[j].artists.length; i++) {
-                        console.log(`Artist ${i}: ${data.tracks.items[j].artists[i].name}`);
+                        console.log(`+ Artist ${i + 1}: ${data.tracks.items[j].artists[i].name}`);
                     }
-                    console.log("Track Name: ", data.tracks.items[j].name);
-                    console.log("URL: ", data.tracks.items[j].preview_url);
-                    console.log("Album name: ", data.tracks.items[j].album.name);
+                    console.log("+ Track Name: ", data.tracks.items[j].name);
+                    console.log("+ URL: ", data.tracks.items[j].preview_url);
+                    console.log("+ Album name: ", data.tracks.items[j].album.name);
                 }
             }
         });
