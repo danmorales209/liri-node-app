@@ -107,7 +107,7 @@ if (process.argv[2]) {
         // axios AJAx request
         axios.get(url).then(function (response) {
             let events = response.data;
-            
+
             // No response for the given query 
             if (events.length == 0) {
                 console.log(`I'm sorry Dave, I couldn't find any events for ${input}.`);
@@ -115,19 +115,19 @@ if (process.argv[2]) {
             else {
                 let printArr = [];
                 let printObj = {
-                    "name" : "",
+                    "name": "",
                     "location": "",
                     "date": ""
                 };
-    
+
                 let formattedDate = "";
-                
+
                 // iterate over the array of data reruned by the API
                 for (i in events) {
-                    
+
                     // Date is stored as YYYY-MM-DDTHH:mm, which is a supported format by Moment.js
                     formattedDate = moment(events[i].datetime);
-                    
+
                     // define object with properties of interest from the API response
                     printObj = {
                         "name": events[i].venue.name,
@@ -137,14 +137,46 @@ if (process.argv[2]) {
                     // Append to the print array
                     printArr.push(printObj);
                 }
-                
+
+                console.log(`Hello Dave. I found ${events.length} events for ${input}:`)
                 // Output the results in tabular form to the console.
                 console.table(printArr);
             }
         });
     }
     else if (command === "spotify-this-song") {
-        // do something spotify related
+        if (input === "") {
+            input = "The Sign";
+        }
+
+        spotify.search({
+            type: 'track',
+            query: input,
+            limit: 20
+        }, function (err, data) {
+            if (err) {
+                return console.log(err);
+            }
+            //console.log(data);
+
+            if (data.tracks.items.length === 0) {
+                console.log(`I'm sorry Dave, I couldn't find any songs titled "${input}".`);
+            }
+            else {
+                for (let j = 0; j < data.tracks.items.length; j++) {
+
+                    console.log("------------------------------------------------");
+                    console.log(`Hit #${j + 1}:`);
+
+                    for (let i = 0; i < data.tracks.items[j].artists.length; i++) {
+                        console.log(`Artist ${i}: ${data.tracks.items[j].artists[i].name}`);
+                    }
+                    console.log("Track Name: ", data.tracks.items[j].name);
+                    console.log("URL: ", data.tracks.items[j].preview_url);
+                    console.log("Album name: ", data.tracks.items[j].album.name);
+                }
+            }
+        });
     }
     else if (command === "movie-this") {
         // do something movie related
