@@ -70,8 +70,8 @@ function printBreak() {
 }
 
 function addLineBreaks(string) {
-    let indentLength = 27;
-    let maxLineLength = 114 - indentLength;
+    const indentLength = 27;
+    const maxLineLength = 114 - indentLength;
     let padding = "+";
     let output = "";
 
@@ -80,24 +80,47 @@ function addLineBreaks(string) {
     }
 
     if (string.length > maxLineLength) {
-        let linesRemaining = string.length;
+        let charRemaining = string.length;
+        let charRemainingInLine = maxLineLength;
         let firstChar = 0;
         let formattingDone = false;
+        let outArray = [];
+        let stringArray = string.split(" ");
+        let lastLineBreak = 0;
 
-        while (!formattingDone) {
 
-            if (linesRemaining > maxLineLength) {
-                if (firstChar !== 0) {
-                    output += padding;
-                }
-                output += string.substring(firstChar, (firstChar + maxLineLength - 1)) + "\n";
-                linesRemaining -= maxLineLength;
-                firstChar += maxLineLength - 1;
+        for (let i = 0; i < stringArray.length; i++) {
+
+            console.log(stringArray[i], stringArray[i + 1])
+
+            if (i < stringArray.length - 1 && ((charRemainingInLine - stringArray[i + 1].length) > 0)) {
+                outArray.push(stringArray[i]);
+                charRemainingInLine -= stringArray[i].length;
             }
             else {
-                output += padding + string.substring(firstChar, firstChar + linesRemaining+1);
-                formattingDone = true;
+                charRemainingInLine = maxLineLength - stringArray[i].length;
+                outArray.push('\n' + padding + stringArray[i]);
             }
+
+            output = outArray.join(" ");
+
+            /*
+                    
+            while (!formattingDone) {
+                        
+                if (linesRemaining > maxLineLength) {
+                    if (firstChar !== 0) {
+                        output += padding;
+                    }
+                    output += string.substring(firstChar, (firstChar + maxLineLength - 1)) + "\n";
+                    linesRemaining -= maxLineLength;
+                    firstChar += maxLineLength - 1;
+                }
+                else {
+                    output += padding + string.substring(firstChar, firstChar + linesRemaining + 1);
+                    formattingDone = true;
+                }
+            }*/
 
         }
 
@@ -250,7 +273,7 @@ if (process.argv[2]) {
                 let outputObj = {
                     "title": response.data.Title,
                     "year": response.data.Year,
-                    "IMDB": response.data.imdbRating,
+                    "IMDB": response.data.Ratings[0].Value,
                     "rottenTomatoes": response.data.Ratings[1].Value,
                     "producedWhere": response.data.Country,
                     "spokenLanguage": response.data.Language,
@@ -262,27 +285,17 @@ if (process.argv[2]) {
                 console.log(printBreak());
                 console.log(`+ Movie Title:             ${outputObj.title}`);
                 console.log(`+ Year Produced:           ${outputObj.year}`);
-                console.log(`+ IMDB Rating:             ${outputObj.imdbRating}`);
+                console.log(`+ IMDB Rating:             ${outputObj.IMDB}`);
                 console.log(`+ Rotten Tomatoes Rating:  ${outputObj.rottenTomatoes}`);
                 console.log(`+ Country of Production:   ${outputObj.producedWhere}`);
                 console.log(`+ Spoken Language:         ${outputObj.spokenLanguage}`);
                 console.log(`+ Plot:                    ${outputObj.plot}`);
                 console.log(`+ Actors:                  ${outputObj.actors}`);
+                console.log(printBreak());
 
 
 
             }
-            /*
-            * Title of the movie.
-            * Year the movie came out.
-            * IMDB Rating of the movie.
-            * Rotten Tomatoes Rating of the movie.
-            * Country where the movie was produced.
-            * Language of the movie.
-            * Plot of the movie.
-            * Actors in the movie.
-            */
-
 
         });
     }
