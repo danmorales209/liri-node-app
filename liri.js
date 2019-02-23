@@ -59,6 +59,7 @@ function buildString() {
     return output;
 }
 
+// Function to print set length characters for break between console results
 function printBreak() {
     let printString = '+';
 
@@ -69,11 +70,12 @@ function printBreak() {
     return printString;
 }
 
+// Format line breaks for OMDB plot response
 function addLineBreaks(string) {
-    const indentLength = 27;
-    const maxLineLength = 114 - indentLength;
+    const indentLength = 27; // length of the indent
+    const maxLineLength = 114 - indentLength; // number of spaces left to print
 
-    console.log("max line length: ", maxLineLength);
+    // Build the padding string to ensure formatting
     let padding = "+";
     let output = "";
 
@@ -81,38 +83,40 @@ function addLineBreaks(string) {
         padding += " ";
     }
 
-    if (string.length > maxLineLength) {
-        let charRemaining = string.length;
+    // Check to see if user input will fit in the alloted space
+    if (string.length > maxLineLength) { // Will not fit in a single line
+        // Counter to track remoaning space
         let charRemainingInLine = maxLineLength;
-        let firstChar = 0;
-        let formattingDone = false;
         let outArray = [];
+        // Get an array of the inputs
         let stringArray = string.split(" ");
-        let lastLineBreak = 0;
 
-
+        // Iterate ove the stringArray
         for (let i = 0; i < stringArray.length; i++) {
 
-            if ((charRemainingInLine - stringArray[i].length) > 0) {
-                outArray.push(stringArray[i]);
+            // Check that printing the next line won't exceed the remaining space
+            if ((charRemainingInLine - stringArray[i].length) > 0) { // enough space to insert the word
+                outArray.push(stringArray[i]); // push to the output array
+                // update the space remaining tracker. the "+1" accounts for whitespace when printing
                 charRemainingInLine -= (stringArray[i].length + 1);
             }
-            else {
-                charRemainingInLine = maxLineLength - ( stringArray[i].length + 1);
-                outArray.push('\n' + padding + stringArray[i]);
+            else { // the next word will exceed the alloted space
+                charRemainingInLine = maxLineLength - (stringArray[i].length + 1); // reset and update the characters
+                outArray.push('\n' + padding + stringArray[i]); // add newline and padding to the next word
             }
 
+            // assign output the formatted string
             output = outArray.join(" ");
 
         }
 
     }
-    else {
+    else { // String will fit
         output = string;
     }
+
+    // Return the string
     return output;
-
-
 }
 
 // Global variable declarations
@@ -151,6 +155,7 @@ if (process.argv[2]) {
         input = "";
     }
 
+    // command "concert-this" logic
     if (command === "concert-this") {
         // Set the default input to Maroon 5 if the user did not input a band or artist
         if (input === "") {
@@ -169,6 +174,7 @@ if (process.argv[2]) {
                 console.log(`I'm sorry Dave, I couldn't find any events for ${input}.`);
             }
             else {
+
                 let printArr = [];
                 let printObj = {
                     "name": "",
@@ -199,34 +205,43 @@ if (process.argv[2]) {
                 console.table(printArr);
             }
         });
-    }
+    } // End concert-this
+
+    // Command "spotify-this-song" Logic
     else if (command === "spotify-this-song") {
+        // Assign default argument if the user does not specify
         if (input === "") {
             input = "The Sign";
         }
 
+        // Spotify search, 
         spotify.search({
             type: 'track',
             query: input,
             limit: 20
         }, function (err, data) {
+            // Attempt to catch and display errors
             if (err) {
                 return console.log(err);
             }
-            //console.log(data);
 
-            if (data.tracks.items.length === 0) {
+            if (data.tracks.items.length === 0) { // No data from query
                 console.log(`I'm sorry Dave, I couldn't find any songs titled "${input}".`);
             }
-            else {
-
-
+            else { // found something
                 console.log(`+++ Hello Dave, here are the Spotify results for ${input}:    +++`);
 
+                // Content not so neatly organized to use console.table due to potential 
+                //  mulitple artists.
+
+                // Iterate over the returned data
                 for (let j = 0; j < data.tracks.items.length; j++) {
 
+                    // Print a line to delimit over responses
                     console.log(printBreak());
-                    console.log(`+ Hit #${j + 1}:`);
+                    console.log(`+ Hit #${j + 1}:`); // Hit 1 to Hit n
+
+                    // Iterate through the array of artists
                     for (let i = 0; i < data.tracks.items[j].artists.length; i++) {
                         console.log(`+ Artist ${i + 1}: ${data.tracks.items[j].artists[i].name}`);
                     }
@@ -236,22 +251,30 @@ if (process.argv[2]) {
                 }
             }
         });
-    }
+    } // End Spotify-this-song
+
+    // Command "movie-this" logic
     else if (command === "movie-this") {
+        // Default query if the user does not add input
         if (input === "") {
             input = "Mr. Nobody";
         }
 
+        // GET url request for OMDB API (seach by movie title)
         let url = `http://www.omdbapi.com/?apikey=${keys.omdb.code}&t=${input}&type=movie&plot=short&r=json`;
-
+        // axios get request, and the function resultsing from the promise
         axios.get(url).then(function (response) {
 
-            if (response.data.Response !== "True") {
+            // Check for data from API
+            if (response.data.Response !== "True") { // no data found from the API
                 console.log(`I'm sorry Dave, I couldn't find any movies with the title ${input}`);
             }
-            else {
+            else { // results found
 
+                // Call the addLineBreaks to format the short plot entry
                 let formattedPlot = addLineBreaks(response.data.Plot);
+
+                // extract the information of interest
                 let outputObj = {
                     "title": response.data.Title,
                     "year": response.data.Year,
@@ -263,6 +286,7 @@ if (process.argv[2]) {
                     "actors": response.data.Actors
                 };
 
+                // Print the information of interest, with some formatting
                 console.log(`Hello Dave, I found the following information about the movie ${input}:`);
                 console.log(printBreak());
                 console.log(`+ Movie Title:             ${outputObj.title}`);
@@ -274,13 +298,11 @@ if (process.argv[2]) {
                 console.log(`+ Plot:                    ${outputObj.plot}`);
                 console.log(`+ Actors:                  ${outputObj.actors}`);
                 console.log(printBreak());
-
-
-
             }
-
         });
-    }
+    } // End movie-this
+
+    //
     else if (command === "do-what-it-says") {
         // do something random
     }
