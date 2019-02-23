@@ -30,7 +30,7 @@ function printCommands(e) {
         }
     };
 
-    // black string
+    // blank string
     if (e === '') {
         console.log("I'm sorry Dave, you didn't tell me to do anything. LIRI accepts the following commands:");
     }
@@ -72,6 +72,8 @@ function printBreak() {
 function addLineBreaks(string) {
     const indentLength = 27;
     const maxLineLength = 114 - indentLength;
+
+    console.log("max line length: ", maxLineLength);
     let padding = "+";
     let output = "";
 
@@ -91,36 +93,16 @@ function addLineBreaks(string) {
 
         for (let i = 0; i < stringArray.length; i++) {
 
-            console.log(stringArray[i], stringArray[i + 1])
-
-            if (i < stringArray.length - 1 && ((charRemainingInLine - stringArray[i + 1].length) > 0)) {
+            if ((charRemainingInLine - stringArray[i].length) > 0) {
                 outArray.push(stringArray[i]);
-                charRemainingInLine -= stringArray[i].length;
+                charRemainingInLine -= (stringArray[i].length + 1);
             }
             else {
-                charRemainingInLine = maxLineLength - stringArray[i].length;
+                charRemainingInLine = maxLineLength - ( stringArray[i].length + 1);
                 outArray.push('\n' + padding + stringArray[i]);
             }
 
             output = outArray.join(" ");
-
-            /*
-                    
-            while (!formattingDone) {
-                        
-                if (linesRemaining > maxLineLength) {
-                    if (firstChar !== 0) {
-                        output += padding;
-                    }
-                    output += string.substring(firstChar, (firstChar + maxLineLength - 1)) + "\n";
-                    linesRemaining -= maxLineLength;
-                    firstChar += maxLineLength - 1;
-                }
-                else {
-                    output += padding + string.substring(firstChar, firstChar + linesRemaining + 1);
-                    formattingDone = true;
-                }
-            }*/
 
         }
 
