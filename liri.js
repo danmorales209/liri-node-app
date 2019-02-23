@@ -62,11 +62,52 @@ function buildString() {
 function printBreak() {
     let printString = '+';
 
-    for(let i = 1; i < 115; i++) {
+    for (let i = 1; i < 115; i++) {
         printString += "-";
     }
 
     return printString;
+}
+
+function addLineBreaks(string) {
+    let indentLength = 27;
+    let maxLineLength = 114 - indentLength;
+    let padding = "+";
+    let output = "";
+
+    for (let i = 1; i < indentLength; i++) {
+        padding += " ";
+    }
+
+    if (string.length > maxLineLength) {
+        let linesRemaining = string.length;
+        let firstChar = 0;
+        let formattingDone = false;
+
+        while (!formattingDone) {
+
+            if (linesRemaining > maxLineLength) {
+                if (firstChar !== 0) {
+                    output += padding;
+                }
+                output += string.substring(firstChar, (firstChar + maxLineLength - 1)) + "\n";
+                linesRemaining -= maxLineLength;
+                firstChar += maxLineLength - 1;
+            }
+            else {
+                output += padding + string.substring(firstChar, firstChar + linesRemaining+1);
+                formattingDone = true;
+            }
+
+        }
+
+    }
+    else {
+        output = string;
+    }
+    return output;
+
+
 }
 
 // Global variable declarations
@@ -174,7 +215,7 @@ if (process.argv[2]) {
             }
             else {
 
-                
+
                 console.log(`+++ Hello Dave, here are the Spotify results for ${input}:    +++`);
 
                 for (let j = 0; j < data.tracks.items.length; j++) {
@@ -192,7 +233,58 @@ if (process.argv[2]) {
         });
     }
     else if (command === "movie-this") {
-        // do something movie related
+        if (input === "") {
+            input = "Mr. Nobody";
+        }
+
+        let url = `http://www.omdbapi.com/?apikey=${keys.omdb.code}&t=${input}&type=movie&plot=short&r=json`;
+
+        axios.get(url).then(function (response) {
+
+            if (response.data.Response !== "True") {
+                console.log(`I'm sorry Dave, I couldn't find any movies with the title ${input}`);
+            }
+            else {
+
+                let formattedPlot = addLineBreaks(response.data.Plot);
+                let outputObj = {
+                    "title": response.data.Title,
+                    "year": response.data.Year,
+                    "IMDB": response.data.imdbRating,
+                    "rottenTomatoes": response.data.Ratings[1].Value,
+                    "producedWhere": response.data.Country,
+                    "spokenLanguage": response.data.Language,
+                    "plot": formattedPlot,
+                    "actors": response.data.Actors
+                };
+
+                console.log(`Hello Dave, I found the following information about the movie ${input}:`);
+                console.log(printBreak());
+                console.log(`+ Movie Title:             ${outputObj.title}`);
+                console.log(`+ Year Produced:           ${outputObj.year}`);
+                console.log(`+ IMDB Rating:             ${outputObj.imdbRating}`);
+                console.log(`+ Rotten Tomatoes Rating:  ${outputObj.rottenTomatoes}`);
+                console.log(`+ Country of Production:   ${outputObj.producedWhere}`);
+                console.log(`+ Spoken Language:         ${outputObj.spokenLanguage}`);
+                console.log(`+ Plot:                    ${outputObj.plot}`);
+                console.log(`+ Actors:                  ${outputObj.actors}`);
+
+
+
+            }
+            /*
+            * Title of the movie.
+            * Year the movie came out.
+            * IMDB Rating of the movie.
+            * Rotten Tomatoes Rating of the movie.
+            * Country where the movie was produced.
+            * Language of the movie.
+            * Plot of the movie.
+            * Actors in the movie.
+            */
+
+
+        });
     }
     else if (command === "do-what-it-says") {
         // do something random
