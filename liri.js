@@ -47,11 +47,9 @@ function printCommands(e) {
 
     // print the command object to the console as a table
     console.table(commands);
-    fs.writeFile("log.txt", logString, function (err) {
-        if (err) {
-            return console.log(err);
-        }
-    });
+
+    console.log(logString);
+    fs.appendFileSync("log.txt", logString);
 }
 
 // Function condenses all process.argv array elements past the command into a single string for searching
@@ -131,9 +129,9 @@ function addLineBreaks(string) {
 }
 
 function logCommand(command, input, readFromFile) {
-    let requesteDateTime = moment();
+    let requestDateTime = moment();
     let logString = printBreak();
-    logString += "+ " + requesteDateTime.format("YYYY-MMM-DD HH:mm") + '\n';
+    logString += "+ " + requestDateTime.format("YYYY-MMM-DD HH:mm") + '\n';
 
     if (readFromFile) {
         logString += `+ Command: ${command}\n`
@@ -142,7 +140,7 @@ function logCommand(command, input, readFromFile) {
         logString += printBreak();
     }
     else {
-        logString += `+ Command: ${command}\t\t\t Input: ${input}:\n`
+        logString += `+ Command: ${command}\t\t\t Input: ${input}\n`
         logString += printBreak();
     }
 
@@ -203,18 +201,10 @@ if (process.argv[2]) {
     }
 
     if (process.argv[2] === "do-what-it-says") {
-        fs.appendFile("log.txt", logCommand(command, input, true), function (err) {
-            if (err) {
-                return console.log(err);
-            }
-        })
+        fs.appendFileSync("log.txt", logCommand(command, input, true));
     }
     else {
-        fs.appendFile("log.txt", logCommand(command, input, false), function (err) {
-            if (err) {
-                return console.log(err);
-            }
-        });
+        fs.appendFileSync("log.txt", logCommand(command, input, false));
     }
 
 
@@ -385,5 +375,10 @@ if (process.argv[2]) {
     }
 }
 else {
+
+    let logString = logCommand("No input", "None", false);
+    console.log(logString);
+    
+    fs.appendFileSync("log.txt",logString);
     printCommands('');
 }
