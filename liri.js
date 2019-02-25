@@ -7,6 +7,8 @@ function printCommands(e) {
     //define commands object with nested objects containing relevant information
     // prepared this was to use console.table()
 
+    let logString = "";
+
     let commands = {
         "concert-this": {
             "argument": "Band or Artist Name",
@@ -32,15 +34,24 @@ function printCommands(e) {
 
     // blank string
     if (e === '') {
-        console.log("I'm sorry Dave, you didn't tell me to do anything. LIRI accepts the following commands:");
+        logString = "I'm sorry Dave, you didn't tell me to do anything.";
+        console.log(logString + " LIRI accepts the following commands:");
+        logString += '\n' + printBreak();
     }
     // unidentified command
     else {
-        console.log(`I'm sorry Dave, I can't do ${e}. LIRI accepts the following commands:`);
+        logString = `I'm sorry Dave, I can't do ${e}.`;
+        console.log(logString + " LIRI accepts the following commands:");
+        logString += '\n' + printBreak();
     }
 
     // print the command object to the console as a table
     console.table(commands);
+    fs.writeFile("log.txt", logString, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+    });
 }
 
 // Function condenses all process.argv array elements past the command into a single string for searching
@@ -119,13 +130,21 @@ function addLineBreaks(string) {
     return output;
 }
 
-function logCommand(command, input) {
+function logCommand(command, input, readFromFile) {
     let requesteDateTime = moment();
     let logString = printBreak();
-
     logString += "+ " + requesteDateTime.format("YYYY-MMM-DD HH:mm") + '\n';
-    logString += `+ Command: ${command}\t\t\t Input: ${input}:\n`
-    logString += printBreak();
+
+    if (readFromFile) {
+        logString += `+ Command: ${command}\n`
+        logString += `+ File text: ${fs.readFileSync("random.txt", "utf8")}\n`
+        logString += `+ Interpreted Command: ${command}\t Interpreted Input: ${input}:\n`
+        logString += printBreak();
+    }
+    else {
+        logString += `+ Command: ${command}\t\t\t Input: ${input}:\n`
+        logString += printBreak();
+    }
 
     return logString;
 }
@@ -183,11 +202,20 @@ if (process.argv[2]) {
         input = "";
     }
 
-    fs.appendFile("log.txt", logCommand(command, input), function (err) {
-        if (err) {
-            console.log(err);
-        }
-    });
+    if (process.argv[2] === "do-what-it-says") {
+        fs.appendFile("log.txt", logCommand(command, input, true), function (err) {
+            if (err) {
+                return console.log(err);
+            }
+        })
+    }
+    else {
+        fs.appendFile("log.txt", logCommand(command, input, false), function (err) {
+            if (err) {
+                return console.log(err);
+            }
+        });
+    }
 
 
     // command "concert-this" logic
@@ -309,7 +337,7 @@ if (process.argv[2]) {
 
             // Check for data from API
             if (response.data.Response !== "True") { // no data found from the API
-                responseToLog = `I'm sorry Dave, I couldn't find any movies with the title ${input}`;
+                responseToLog = `I'm sorry Dave, I couldn't find any movies with the title ${input}\n${printBreak()}`;
                 console.log(responseToLog);
             }
             else { // results found
@@ -330,26 +358,31 @@ if (process.argv[2]) {
                 };
 
                 // Print the information of interest, with some formatting
-                console.log(`Hello Dave, I found the following information about the movie ${input}:`);
-                console.log(printBreak());
-                console.log(`+ Movie Title:             ${outputObj.title}`);
-                console.log(`+ Year Produced:           ${outputObj.year}`);
-                console.log(`+ IMDB Rating:             ${outputObj.IMDB}`);
-                console.log(`+ Rotten Tomatoes Rating:  ${outputObj.rottenTomatoes}`);
-                console.log(`+ Country of Production:   ${outputObj.producedWhere}`);
-                console.log(`+ Spoken Language:         ${outputObj.spokenLanguage}`);
-                console.log(`+ Plot:                    ${outputObj.plot}`);
-                console.log(`+ Actors:                  ${outputObj.actors}`);
-                console.log(printBreak());
+                responseToLog = `+ Hello Dave, I found the following information about the movie ${input.toUpperCase()}:\n`;
+                responseToLog += printBreak();
+                responseToLog += `+ Movie Title:             ${outputObj.title}\n`;
+                responseToLog += `+ Year Produced:           ${outputObj.year}\n`;
+                responseToLog += `+ IMDB Rating:             ${outputObj.IMDB}\n`;
+                responseToLog += `+ Rotten Tomatoes Rating:  ${outputObj.rottenTomatoes}\n`;
+                responseToLog += `+ Country of Production:   ${outputObj.producedWhere}\n`;
+                responseToLog += `+ Spoken Language:         ${outputObj.spokenLanguage}\n`;
+                responseToLog += `+ Plot:                    ${outputObj.plot}\n`;
+                responseToLog += `+ Actors:                  ${outputObj.actors}\n`;
+                responseToLog += printBreak();
             }
+            console.log(responseToLog);
+            fs.appendFile("log.txt", responseToLog, function (err) {
+                if (err) {
+                    return console.log(err);
+                }
+            });
+
         });
     } // End movie-this
 
     else {
         printCommands(command);
     }
-
-
 }
 else {
     printCommands('');
