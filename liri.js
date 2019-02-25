@@ -12,22 +12,22 @@ function printCommands(e) {
     let commands = {
         "concert-this": {
             "argument": "Band or Artist Name",
-            "instruction": "placeholder",
+            "instruction": "Enter a band or artist name to get a list of concerts and locations",
             "example": ">> node liri.js concert-this The Shins"
         },
         "spotify-this-song": {
             "argument": "Song Title",
-            "instruction": "placeholder",
+            "instruction": "Enter a song title to see a list of results with",
             "example": ">> node liri.js spotify-this-song Mr. Roboto"
         },
         "movie-this": {
             "argument": "Movie Title",
-            "instruction": "placeholder",
+            "instruction": "Enter a movie title to see information from the top hit",
             "example": ">> node liri.js movie-this Space Odyssey 2001"
         },
         "do-what-it-says": {
             "argument": "None",
-            "instruction": "placeholder",
+            "instruction": "Reads random.txt and attempts to interpret the results",
             "example": ">> node liri.js do-what-it-says"
         }
     };
@@ -35,20 +35,19 @@ function printCommands(e) {
     // blank string
     if (e === '') {
         logString = "I'm sorry Dave, you didn't tell me to do anything.";
-        console.log(logString + " LIRI accepts the following commands:");
+        console.log("\n" + logString + " LIRI accepts the following commands:");
         logString += '\n' + printBreak();
     }
     // unidentified command
     else {
         logString = `I'm sorry Dave, I can't do ${e}.`;
-        console.log(logString + " LIRI accepts the following commands:");
+        console.log("\n" + logString + " LIRI accepts the following commands:");
         logString += '\n' + printBreak();
     }
 
     // print the command object to the console as a table
     console.table(commands);
 
-    console.log(logString);
     fs.appendFileSync("log.txt", logString);
 }
 
@@ -230,7 +229,7 @@ if (process.argv[2]) {
             else {
 
                 responseToLog += `+ Hello Dave. I found ${events.length} events for ${input.toUpperCase()}:\n`;
-                console.log(`Hello Dave. I found ${events.length} events for ${input.toUpperCase()}:\n`);
+                //console.log(`Hello Dave. I found ${events.length} events for ${input.toUpperCase()}:\n`);
                 responseToLog += `${printBreak()}`;
 
                 let formattedDate = "";
@@ -249,7 +248,7 @@ if (process.argv[2]) {
                 }
 
                 // Output the results  to the console.
-                console.log(responseToLog);
+                console.log('\n\n' + responseToLog);
             }
             fs.appendFile("log.txt", responseToLog, function (err) {
                 if (err) {
@@ -304,7 +303,7 @@ if (process.argv[2]) {
                 }
                 responseToLog += printBreak();
             }
-            console.log(responseToLog);
+            console.log('\n\n' + responseToLog);
             fs.appendFile("log.txt", responseToLog, function (err) {
                 if (err) {
                     return console.log(err);
@@ -327,8 +326,7 @@ if (process.argv[2]) {
 
             // Check for data from API
             if (response.data.Response !== "True") { // no data found from the API
-                responseToLog = `I'm sorry Dave, I couldn't find any movies with the title ${input}\n${printBreak()}`;
-                console.log(responseToLog);
+                responseToLog = `I'm sorry Dave, I couldn't find any movies with the title ${input.toUpperCase()}\n${printBreak()}`;
             }
             else { // results found
 
@@ -360,7 +358,7 @@ if (process.argv[2]) {
                 responseToLog += `+ Actors:                  ${outputObj.actors}\n`;
                 responseToLog += printBreak();
             }
-            console.log(responseToLog);
+            console.log('\n\n' + responseToLog);
             fs.appendFile("log.txt", responseToLog, function (err) {
                 if (err) {
                     return console.log(err);
@@ -377,7 +375,7 @@ if (process.argv[2]) {
 else {
 
     let logString = logCommand("No input", "None", false);
-    console.log(logString);
+    //console.log(logString);
     
     fs.appendFileSync("log.txt",logString);
     printCommands('');
