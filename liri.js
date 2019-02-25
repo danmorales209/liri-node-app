@@ -67,7 +67,7 @@ function printBreak() {
         printString += "-";
     }
 
-    return printString;
+    return (printString + '\n');
 }
 
 // Format line breaks for OMDB plot response
@@ -119,6 +119,17 @@ function addLineBreaks(string) {
     return output;
 }
 
+function logCommand(command, input) {
+    let requesteDateTime = moment();
+    let logString = printBreak();
+
+    logString += "+ " + requesteDateTime.format("YYYY-MMM-DD HH:mm") + '\n';
+    logString += `+ Command: ${command}\t\t\t Input: ${input}:\n`
+    logString += printBreak();
+
+    return logString;
+}
+
 // Global variable declarations
 // Allow using keys withouth directly exposing them
 require("dotenv").config();
@@ -136,10 +147,12 @@ var spotify = new Spotify(keys.spotify);
 // Grab the axios package...
 var axios = require("axios");
 
+
 // Check that the use has input something
 if (process.argv[2]) {
     let command = process.argv[2];
     let input;
+    let responseToLog = "";
 
     // User has inputted exactly two arguments ( a command and an input)
     if (process.argv.length == 4) {
@@ -150,10 +163,32 @@ if (process.argv[2]) {
         // call buildstring fuction to condense array of arguments into a string, after the "command"
         input = buildString();
     }
+    else if (process.argv[2] === "do-what-it-says") { // user has inputted "do-what-it-says"
+        // Use the fs.readFileSync to get the contents. Use the Sync method here as it is unlikely this
+        // program will actually need to read files asynchronously. Future implementation might need 
+        // re-work if this is required
+
+        // Read the file and store to a UTF8 encoded string
+        let savedInstructions = fs.readFileSync("random.txt", "utf8");
+
+        // the file is written in the form <command>,<"input string">
+        command = savedInstructions.split(",")[0];
+        input = savedInstructions.split(",")[1];
+
+        // Set these before using the data to reuse the if..else if..else logic
+
+    }
     // User only inputted a command
     else {
         input = "";
     }
+
+    fs.appendFile("log.txt", logCommand(command, input), function (err) {
+        if (err) {
+            console.log(err);
+        }
+    });
+
 
     // command "concert-this" logic
     if (command === "concert-this") {
@@ -170,17 +205,15 @@ if (process.argv[2]) {
             let events = response.data;
 
             // No response for the given query 
-            if (events.length == 0) {
-                console.log(`I'm sorry Dave, I couldn't find any events for ${input}.`);
+            if (events === '\n{warn=Not found}\n') {
+                responseToLog = `${printBreak()}+ I'm sorry Dave, I couldn't find any events for ${input}.\n${printBreak()}`;
+                console.log(responseToLog);
             }
             else {
 
-                let printArr = [];
-                let printObj = {
-                    "name": "",
-                    "location": "",
-                    "date": ""
-                };
+                responseToLog += `+ Hello Dave. I found ${events.length} events for ${input.toUpperCase()}:\n`;
+                console.log(`Hello Dave. I found ${events.length} events for ${input.toUpperCase()}:\n`);
+                responseToLog += `${printBreak()}`;
 
                 let formattedDate = "";
 
@@ -190,20 +223,23 @@ if (process.argv[2]) {
                     // Date is stored as YYYY-MM-DDTHH:mm, which is a supported format by Moment.js
                     formattedDate = moment(events[i].datetime);
 
-                    // define object with properties of interest from the API response
-                    printObj = {
-                        "name": events[i].venue.name,
-                        "location": events[i].venue.city + ", " + events[i].venue.country,
-                        "date": formattedDate.format("MM/DD/YYYY")
-                    };
-                    // Append to the print array
-                    printArr.push(printObj);
+                    responseToLog += `+ CONCERT #${Number(i) + 1}\n`;
+                    responseToLog += `+ Venue:     ${events[i].venue.name ? events[i].venue.name : "Not Given"}\n`;
+                    responseToLog += `+ Location:  ${events[i].venue.city}, ${events[i].venue.country}\n`;
+                    responseToLog += `+ Date:      ${formattedDate.format("MM/DD/YYYY")}\n`;
+                    responseToLog += printBreak();
                 }
 
-                console.log(`Hello Dave. I found ${events.length} events for ${input}:`)
-                // Output the results in tabular form to the console.
-                console.table(printArr);
+                // Output the results  to the console.
+                console.log(responseToLog);
             }
+            fs.appendFile("log.txt", responseToLog, function (err) {
+                if (err) {
+                    return console.log(err);
+                }
+            });
+        }).catch(function (err) {
+            console.error(err);
         });
     } // End concert-this
 
@@ -226,30 +262,36 @@ if (process.argv[2]) {
             }
 
             if (data.tracks.items.length === 0) { // No data from query
-                console.log(`I'm sorry Dave, I couldn't find any songs titled "${input}".`);
+                responseToLog = `\n${printBreak()}I'm sorry Dave, I couldn't find any songs titled "${input}\n${printBreak()}".`
+                console.log(responseToLog);
             }
             else { // found something
-                console.log(`+++ Hello Dave, here are the Spotify results for ${input}:    +++`);
 
-                // Content not so neatly organized to use console.table due to potential 
-                //  mulitple artists.
+                responseToLog = `+ Hello Dave, here are the Spotify results for ${input.toUpperCase()}:\n`;
 
                 // Iterate over the returned data
                 for (let j = 0; j < data.tracks.items.length; j++) {
 
                     // Print a line to delimit over responses
-                    console.log(printBreak());
-                    console.log(`+ Hit #${j + 1}:`); // Hit 1 to Hit n
+                    responseToLog += printBreak();
+                    responseToLog += `+ TRACK RESULT #${j + 1}:\n`; // Hit 1 to Hit n
 
                     // Iterate through the array of artists
                     for (let i = 0; i < data.tracks.items[j].artists.length; i++) {
-                        console.log(`+ Artist ${i + 1}: ${data.tracks.items[j].artists[i].name}`);
+                        responseToLog += `+ Artist ${i + 1}: ${data.tracks.items[j].artists[i].name}\n`;
                     }
-                    console.log("+ Track Name: ", data.tracks.items[j].name);
-                    console.log("+ URL: ", data.tracks.items[j].preview_url);
-                    console.log("+ Album name: ", data.tracks.items[j].album.name);
+                    responseToLog += "+ Track Name: " + data.tracks.items[j].name + '\n';
+                    responseToLog += "+ URL: " + (data.tracks.items[j].preview_url === null ? "N/A" : data.tracks.items[j].preview_url) + '\n';
+                    responseToLog += "+ Album name: " + data.tracks.items[j].album.name + '\n';
                 }
+                responseToLog += printBreak();
             }
+            console.log(responseToLog);
+            fs.appendFile("log.txt", responseToLog, function (err) {
+                if (err) {
+                    return console.log(err);
+                }
+            })
         });
     } // End Spotify-this-song
 
@@ -267,7 +309,8 @@ if (process.argv[2]) {
 
             // Check for data from API
             if (response.data.Response !== "True") { // no data found from the API
-                console.log(`I'm sorry Dave, I couldn't find any movies with the title ${input}`);
+                responseToLog = `I'm sorry Dave, I couldn't find any movies with the title ${input}`;
+                console.log(responseToLog);
             }
             else { // results found
 
@@ -302,10 +345,6 @@ if (process.argv[2]) {
         });
     } // End movie-this
 
-    //
-    else if (command === "do-what-it-says") {
-        // do something random
-    }
     else {
         printCommands(command);
     }

@@ -1,0 +1,934 @@
++------------------------------------------------------------------------------------------------------------------
++ 2019-Feb-24 22:44
++ Command: spotify-this-song			 Input: :
++------------------------------------------------------------------------------------------------------------------
++ Hello Dave, here are the Spotify results for The Sign:
++------------------------------------------------------------------------------------------------------------------
++ Hit #1:
++ Artist 1: Lil Wayne
++ Artist 2: Ty Dolla $ign
++ Artist 3: XXXTENTACION
++ Track Name: Scared of the Dark (feat. XXXTENTACION)
++ URL: null
++ Album name: Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)
++------------------------------------------------------------------------------------------------------------------
++ Hit #2:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: https://p.scdn.co/mp3-preview/af237206f611b722f48620ece049aff3b8650e77?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Harry Styles
++------------------------------------------------------------------------------------------------------------------
++ Hit #3:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: Impatient
++ URL: null
++ Album name: Late Nights: The Album
++------------------------------------------------------------------------------------------------------------------
++ Hit #4:
++ Artist 1: Ty Dolla $ign
++ Artist 2: The Weeknd
++ Artist 3: Wiz Khalifa
++ Artist 4: Mustard
++ Track Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
++ URL: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
++------------------------------------------------------------------------------------------------------------------
++ Hit #5:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: null
++ Album name: The Light
++------------------------------------------------------------------------------------------------------------------
++ Hit #6:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: https://p.scdn.co/mp3-preview/9801b9239ad1b833f1317574ee55b9d7b8426ff1?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Sign of the Times
++------------------------------------------------------------------------------------------------------------------
++ Hit #7:
++ Artist 1: Quality Control
++ Artist 2: Lil Yachty
++ Artist 3: Ty Dolla $ign
++ Track Name: Movin’ Up
++ URL: null
++ Album name: Quality Control: Control The Streets Volume 1
++------------------------------------------------------------------------------------------------------------------
++ Hit #8:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Lil Wayne
++ Artist 3: The-Dream
++ Track Name: Love U Better (feat. Lil Wayne & The-Dream)
++ URL: https://p.scdn.co/mp3-preview/8917010fb6f1883ff95e85abf35428d98904f29b?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ Hit #9:
++ Artist 1: Mac Miller
++ Artist 2: Ty Dolla $ign
++ Track Name: Cinderella (feat. Ty Dolla $ign)
++ URL: https://p.scdn.co/mp3-preview/1f797d8ec6a6ca7dd84d9a6d496bc92748d24557?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Divine Feminine
++------------------------------------------------------------------------------------------------------------------
++ Hit #10:
++ Artist 1: Ace of Base
++ Track Name: The Sign
++ URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ Hit #11:
++ Artist 1: Lil Durk
++ Artist 2: Ty Dolla $ign
++ Artist 3: A Boogie Wit da Hoodie
++ Track Name: 100 Grand (feat. Ty Dolla $ign & A Boogie wit da Hoodie)
++ URL: null
++ Album name: Signed To The Streets 3
++------------------------------------------------------------------------------------------------------------------
++ Hit #12:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Tory Lanez
++ Track Name: Droptop in the Rain (feat. Tory Lanez)
++ URL: https://p.scdn.co/mp3-preview/ffa127c9856a0c60b5fcddf57ead126dfba2d390?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ Hit #13:
++ Artist 1: Coldplay
++ Track Name: Warning Sign
++ URL: https://p.scdn.co/mp3-preview/aa7d87a8e2ac9aa7261c7640548a18930572043d?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: A Rush Of Blood To The Head
++------------------------------------------------------------------------------------------------------------------
++ Hit #14:
++ Artist 1: MAX
++ Artist 2: Ty Dolla $ign
++ Track Name: The Other Side (with MAX & Ty Dolla $ign)
++ URL: https://p.scdn.co/mp3-preview/a3c926a4a3a8876a61b09cd54ea343e876092321?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Greatest Showman: Reimagined
++------------------------------------------------------------------------------------------------------------------
++ Hit #15:
++ Artist 1: Ace of Base
++ Track Name: All That She Wants
++ URL: https://p.scdn.co/mp3-preview/b176774bc04182501c2d5d201afda143b1193f31?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ Hit #16:
++ Artist 1: Lil Wayne
++ Artist 2: Wiz Khalifa
++ Artist 3: Imagine Dragons
++ Artist 4: X Ambassadors
++ Artist 5: Logic
++ Artist 6: Ty Dolla $ign
++ Track Name: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
++ URL: https://p.scdn.co/mp3-preview/96f9689e58c4d6188cc269c0c2089036c3817a2e?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Suicide Squad: The Album
++------------------------------------------------------------------------------------------------------------------
++ Hit #17:
++ Artist 1: Juicy J
++ Artist 2: Wiz Khalifa
++ Artist 3: Ty Dolla $ign
++ Artist 4: Madsonik
++ Artist 5: Kill The Noise
++ Track Name: Shell Shocked (feat. Kill The Noise & Madsonik) - From "Teenage Mutant Ninja Turtles"
++ URL: https://p.scdn.co/mp3-preview/26fa73b8c2e9ce91efb44fad48c5a38b2e48dc11?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Shell Shocked (feat. Kill The Noise & Madsonik) [From "Teenage Mutant Ninja Turtles"]
++------------------------------------------------------------------------------------------------------------------
++ Hit #18:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: null
++ Album name: MIH-TY
++------------------------------------------------------------------------------------------------------------------
++ Hit #19:
++ Artist 1: Chance the Rapper
++ Artist 2: Ty Dolla $ign
++ Artist 3: Anderson .Paak
++ Artist 4: BJ The Chicago Kid
++ Artist 5: Raury
++ Track Name: Blessings
++ URL: https://p.scdn.co/mp3-preview/ca5047ad569d9860b850475f22cb482c8240e7a2?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Coloring Book
++------------------------------------------------------------------------------------------------------------------
++ Hit #20:
++ Artist 1: The Game
++ Artist 2: YG
++ Artist 3: Ty Dolla $ign
++ Artist 4: Jeremih
++ Track Name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++ URL: https://p.scdn.co/mp3-preview/9c69bc8673b0babe31f2d75c6579d368d2093531?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++------------------------------------------------------------------------------------------------------------------
++------------------------------------------------------------------------------------------------------------------
++ 2019-Feb-24 22:46
++ Command: spotify-this-song			 Input: :
++------------------------------------------------------------------------------------------------------------------
++ Hello Dave, here are the Spotify results for THE SIGN:
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #1:
++ Artist 1: Lil Wayne
++ Artist 2: Ty Dolla $ign
++ Artist 3: XXXTENTACION
++ Track Name: Scared of the Dark (feat. XXXTENTACION)
++ URL: null
++ Album name: Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #2:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: https://p.scdn.co/mp3-preview/af237206f611b722f48620ece049aff3b8650e77?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Harry Styles
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #3:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: Impatient
++ URL: null
++ Album name: Late Nights: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #4:
++ Artist 1: Ty Dolla $ign
++ Artist 2: The Weeknd
++ Artist 3: Wiz Khalifa
++ Artist 4: Mustard
++ Track Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
++ URL: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #5:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: null
++ Album name: The Light
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #6:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: https://p.scdn.co/mp3-preview/9801b9239ad1b833f1317574ee55b9d7b8426ff1?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Sign of the Times
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #7:
++ Artist 1: Quality Control
++ Artist 2: Lil Yachty
++ Artist 3: Ty Dolla $ign
++ Track Name: Movin’ Up
++ URL: null
++ Album name: Quality Control: Control The Streets Volume 1
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #8:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Lil Wayne
++ Artist 3: The-Dream
++ Track Name: Love U Better (feat. Lil Wayne & The-Dream)
++ URL: https://p.scdn.co/mp3-preview/8917010fb6f1883ff95e85abf35428d98904f29b?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #9:
++ Artist 1: Mac Miller
++ Artist 2: Ty Dolla $ign
++ Track Name: Cinderella (feat. Ty Dolla $ign)
++ URL: https://p.scdn.co/mp3-preview/1f797d8ec6a6ca7dd84d9a6d496bc92748d24557?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Divine Feminine
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #10:
++ Artist 1: Ace of Base
++ Track Name: The Sign
++ URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #11:
++ Artist 1: Lil Durk
++ Artist 2: Ty Dolla $ign
++ Artist 3: A Boogie Wit da Hoodie
++ Track Name: 100 Grand (feat. Ty Dolla $ign & A Boogie wit da Hoodie)
++ URL: null
++ Album name: Signed To The Streets 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #12:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Tory Lanez
++ Track Name: Droptop in the Rain (feat. Tory Lanez)
++ URL: https://p.scdn.co/mp3-preview/ffa127c9856a0c60b5fcddf57ead126dfba2d390?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #13:
++ Artist 1: Coldplay
++ Track Name: Warning Sign
++ URL: https://p.scdn.co/mp3-preview/aa7d87a8e2ac9aa7261c7640548a18930572043d?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: A Rush Of Blood To The Head
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #14:
++ Artist 1: MAX
++ Artist 2: Ty Dolla $ign
++ Track Name: The Other Side (with MAX & Ty Dolla $ign)
++ URL: https://p.scdn.co/mp3-preview/a3c926a4a3a8876a61b09cd54ea343e876092321?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Greatest Showman: Reimagined
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #15:
++ Artist 1: Ace of Base
++ Track Name: All That She Wants
++ URL: https://p.scdn.co/mp3-preview/b176774bc04182501c2d5d201afda143b1193f31?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #16:
++ Artist 1: Lil Wayne
++ Artist 2: Wiz Khalifa
++ Artist 3: Imagine Dragons
++ Artist 4: X Ambassadors
++ Artist 5: Logic
++ Artist 6: Ty Dolla $ign
++ Track Name: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
++ URL: https://p.scdn.co/mp3-preview/96f9689e58c4d6188cc269c0c2089036c3817a2e?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Suicide Squad: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #17:
++ Artist 1: Juicy J
++ Artist 2: Wiz Khalifa
++ Artist 3: Ty Dolla $ign
++ Artist 4: Madsonik
++ Artist 5: Kill The Noise
++ Track Name: Shell Shocked (feat. Kill The Noise & Madsonik) - From "Teenage Mutant Ninja Turtles"
++ URL: https://p.scdn.co/mp3-preview/26fa73b8c2e9ce91efb44fad48c5a38b2e48dc11?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Shell Shocked (feat. Kill The Noise & Madsonik) [From "Teenage Mutant Ninja Turtles"]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #18:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: null
++ Album name: MIH-TY
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #19:
++ Artist 1: Chance the Rapper
++ Artist 2: Ty Dolla $ign
++ Artist 3: Anderson .Paak
++ Artist 4: BJ The Chicago Kid
++ Artist 5: Raury
++ Track Name: Blessings
++ URL: https://p.scdn.co/mp3-preview/ca5047ad569d9860b850475f22cb482c8240e7a2?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Coloring Book
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #20:
++ Artist 1: The Game
++ Artist 2: YG
++ Artist 3: Ty Dolla $ign
++ Artist 4: Jeremih
++ Track Name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++ URL: https://p.scdn.co/mp3-preview/9c69bc8673b0babe31f2d75c6579d368d2093531?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++------------------------------------------------------------------------------------------------------------------
++------------------------------------------------------------------------------------------------------------------
++ 2019-Feb-24 22:47
++ Command: spotify-this-song			 Input: :
++------------------------------------------------------------------------------------------------------------------
++ Hello Dave, here are the Spotify results for THE SIGN:
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #1:
++ Artist 1: Lil Wayne
++ Artist 2: Ty Dolla $ign
++ Artist 3: XXXTENTACION
++ Track Name: Scared of the Dark (feat. XXXTENTACION)
+null+ Album name: Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #2:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
+https://p.scdn.co/mp3-preview/af237206f611b722f48620ece049aff3b8650e77?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: Harry Styles
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #3:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: Impatient
+null+ Album name: Late Nights: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #4:
++ Artist 1: Ty Dolla $ign
++ Artist 2: The Weeknd
++ Artist 3: Wiz Khalifa
++ Artist 4: Mustard
++ Track Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
+https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #5:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
+null+ Album name: The Light
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #6:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
+https://p.scdn.co/mp3-preview/9801b9239ad1b833f1317574ee55b9d7b8426ff1?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: Sign of the Times
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #7:
++ Artist 1: Quality Control
++ Artist 2: Lil Yachty
++ Artist 3: Ty Dolla $ign
++ Track Name: Movin’ Up
+null+ Album name: Quality Control: Control The Streets Volume 1
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #8:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Lil Wayne
++ Artist 3: The-Dream
++ Track Name: Love U Better (feat. Lil Wayne & The-Dream)
+https://p.scdn.co/mp3-preview/8917010fb6f1883ff95e85abf35428d98904f29b?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #9:
++ Artist 1: Mac Miller
++ Artist 2: Ty Dolla $ign
++ Track Name: Cinderella (feat. Ty Dolla $ign)
+https://p.scdn.co/mp3-preview/1f797d8ec6a6ca7dd84d9a6d496bc92748d24557?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: The Divine Feminine
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #10:
++ Artist 1: Ace of Base
++ Track Name: The Sign
+https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #11:
++ Artist 1: Lil Durk
++ Artist 2: Ty Dolla $ign
++ Artist 3: A Boogie Wit da Hoodie
++ Track Name: 100 Grand (feat. Ty Dolla $ign & A Boogie wit da Hoodie)
+null+ Album name: Signed To The Streets 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #12:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Tory Lanez
++ Track Name: Droptop in the Rain (feat. Tory Lanez)
+https://p.scdn.co/mp3-preview/ffa127c9856a0c60b5fcddf57ead126dfba2d390?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #13:
++ Artist 1: Coldplay
++ Track Name: Warning Sign
+https://p.scdn.co/mp3-preview/aa7d87a8e2ac9aa7261c7640548a18930572043d?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: A Rush Of Blood To The Head
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #14:
++ Artist 1: MAX
++ Artist 2: Ty Dolla $ign
++ Track Name: The Other Side (with MAX & Ty Dolla $ign)
+https://p.scdn.co/mp3-preview/a3c926a4a3a8876a61b09cd54ea343e876092321?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: The Greatest Showman: Reimagined
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #15:
++ Artist 1: Ace of Base
++ Track Name: All That She Wants
+https://p.scdn.co/mp3-preview/b176774bc04182501c2d5d201afda143b1193f31?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #16:
++ Artist 1: Lil Wayne
++ Artist 2: Wiz Khalifa
++ Artist 3: Imagine Dragons
++ Artist 4: X Ambassadors
++ Artist 5: Logic
++ Artist 6: Ty Dolla $ign
++ Track Name: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
+https://p.scdn.co/mp3-preview/96f9689e58c4d6188cc269c0c2089036c3817a2e?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: Suicide Squad: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #17:
++ Artist 1: Juicy J
++ Artist 2: Wiz Khalifa
++ Artist 3: Ty Dolla $ign
++ Artist 4: Madsonik
++ Artist 5: Kill The Noise
++ Track Name: Shell Shocked (feat. Kill The Noise & Madsonik) - From "Teenage Mutant Ninja Turtles"
+https://p.scdn.co/mp3-preview/26fa73b8c2e9ce91efb44fad48c5a38b2e48dc11?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: Shell Shocked (feat. Kill The Noise & Madsonik) [From "Teenage Mutant Ninja Turtles"]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #18:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
+null+ Album name: MIH-TY
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #19:
++ Artist 1: Chance the Rapper
++ Artist 2: Ty Dolla $ign
++ Artist 3: Anderson .Paak
++ Artist 4: BJ The Chicago Kid
++ Artist 5: Raury
++ Track Name: Blessings
+https://p.scdn.co/mp3-preview/ca5047ad569d9860b850475f22cb482c8240e7a2?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: Coloring Book
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #20:
++ Artist 1: The Game
++ Artist 2: YG
++ Artist 3: Ty Dolla $ign
++ Artist 4: Jeremih
++ Track Name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
+https://p.scdn.co/mp3-preview/9c69bc8673b0babe31f2d75c6579d368d2093531?cid=fa0e976577a240fc8b51047c8b2340e8+ Album name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++------------------------------------------------------------------------------------------------------------------
++------------------------------------------------------------------------------------------------------------------
++ 2019-Feb-24 22:48
++ Command: spotify-this-song			 Input: :
++------------------------------------------------------------------------------------------------------------------
++ Hello Dave, here are the Spotify results for THE SIGN:
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #1:
++ Artist 1: Lil Wayne
++ Artist 2: Ty Dolla $ign
++ Artist 3: XXXTENTACION
++ Track Name: Scared of the Dark (feat. XXXTENTACION)
++ URL: N/A
++ Album name: Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #2:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: N/A
++ Album name: Harry Styles
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #3:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: Impatient
++ URL: N/A
++ Album name: Late Nights: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #4:
++ Artist 1: Ty Dolla $ign
++ Artist 2: The Weeknd
++ Artist 3: Wiz Khalifa
++ Artist 4: Mustard
++ Track Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
++ URL: N/A
++ Album name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #5:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: N/A
++ Album name: The Light
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #6:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: N/A
++ Album name: Sign of the Times
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #7:
++ Artist 1: Quality Control
++ Artist 2: Lil Yachty
++ Artist 3: Ty Dolla $ign
++ Track Name: Movin’ Up
++ URL: N/A
++ Album name: Quality Control: Control The Streets Volume 1
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #8:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Lil Wayne
++ Artist 3: The-Dream
++ Track Name: Love U Better (feat. Lil Wayne & The-Dream)
++ URL: N/A
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #9:
++ Artist 1: Mac Miller
++ Artist 2: Ty Dolla $ign
++ Track Name: Cinderella (feat. Ty Dolla $ign)
++ URL: N/A
++ Album name: The Divine Feminine
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #10:
++ Artist 1: Ace of Base
++ Track Name: The Sign
++ URL: N/A
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #11:
++ Artist 1: Lil Durk
++ Artist 2: Ty Dolla $ign
++ Artist 3: A Boogie Wit da Hoodie
++ Track Name: 100 Grand (feat. Ty Dolla $ign & A Boogie wit da Hoodie)
++ URL: N/A
++ Album name: Signed To The Streets 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #12:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Tory Lanez
++ Track Name: Droptop in the Rain (feat. Tory Lanez)
++ URL: N/A
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #13:
++ Artist 1: Coldplay
++ Track Name: Warning Sign
++ URL: N/A
++ Album name: A Rush Of Blood To The Head
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #14:
++ Artist 1: MAX
++ Artist 2: Ty Dolla $ign
++ Track Name: The Other Side (with MAX & Ty Dolla $ign)
++ URL: N/A
++ Album name: The Greatest Showman: Reimagined
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #15:
++ Artist 1: Ace of Base
++ Track Name: All That She Wants
++ URL: N/A
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #16:
++ Artist 1: Lil Wayne
++ Artist 2: Wiz Khalifa
++ Artist 3: Imagine Dragons
++ Artist 4: X Ambassadors
++ Artist 5: Logic
++ Artist 6: Ty Dolla $ign
++ Track Name: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
++ URL: N/A
++ Album name: Suicide Squad: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #17:
++ Artist 1: Juicy J
++ Artist 2: Wiz Khalifa
++ Artist 3: Ty Dolla $ign
++ Artist 4: Madsonik
++ Artist 5: Kill The Noise
++ Track Name: Shell Shocked (feat. Kill The Noise & Madsonik) - From "Teenage Mutant Ninja Turtles"
++ URL: N/A
++ Album name: Shell Shocked (feat. Kill The Noise & Madsonik) [From "Teenage Mutant Ninja Turtles"]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #18:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: N/A
++ Album name: MIH-TY
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #19:
++ Artist 1: Chance the Rapper
++ Artist 2: Ty Dolla $ign
++ Artist 3: Anderson .Paak
++ Artist 4: BJ The Chicago Kid
++ Artist 5: Raury
++ Track Name: Blessings
++ URL: N/A
++ Album name: Coloring Book
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #20:
++ Artist 1: The Game
++ Artist 2: YG
++ Artist 3: Ty Dolla $ign
++ Artist 4: Jeremih
++ Track Name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++ URL: N/A
++ Album name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++------------------------------------------------------------------------------------------------------------------
++------------------------------------------------------------------------------------------------------------------
++ 2019-Feb-24 22:49
++ Command: spotify-this-song			 Input: :
++------------------------------------------------------------------------------------------------------------------
++ Hello Dave, here are the Spotify results for THE SIGN:
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #1:
++ Artist 1: Lil Wayne
++ Artist 2: Ty Dolla $ign
++ Artist 3: XXXTENTACION
++ Track Name: Scared of the Dark (feat. XXXTENTACION)
++ URL: null
++ Album name: Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #2:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: N/A
++ Album name: Harry Styles
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #3:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: Impatient
++ URL: null
++ Album name: Late Nights: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #4:
++ Artist 1: Ty Dolla $ign
++ Artist 2: The Weeknd
++ Artist 3: Wiz Khalifa
++ Artist 4: Mustard
++ Track Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
++ URL: N/A
++ Album name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #5:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: null
++ Album name: The Light
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #6:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: N/A
++ Album name: Sign of the Times
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #7:
++ Artist 1: Quality Control
++ Artist 2: Lil Yachty
++ Artist 3: Ty Dolla $ign
++ Track Name: Movin’ Up
++ URL: null
++ Album name: Quality Control: Control The Streets Volume 1
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #8:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Lil Wayne
++ Artist 3: The-Dream
++ Track Name: Love U Better (feat. Lil Wayne & The-Dream)
++ URL: N/A
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #9:
++ Artist 1: Mac Miller
++ Artist 2: Ty Dolla $ign
++ Track Name: Cinderella (feat. Ty Dolla $ign)
++ URL: N/A
++ Album name: The Divine Feminine
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #10:
++ Artist 1: Ace of Base
++ Track Name: The Sign
++ URL: N/A
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #11:
++ Artist 1: Lil Durk
++ Artist 2: Ty Dolla $ign
++ Artist 3: A Boogie Wit da Hoodie
++ Track Name: 100 Grand (feat. Ty Dolla $ign & A Boogie wit da Hoodie)
++ URL: null
++ Album name: Signed To The Streets 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #12:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Tory Lanez
++ Track Name: Droptop in the Rain (feat. Tory Lanez)
++ URL: N/A
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #13:
++ Artist 1: Coldplay
++ Track Name: Warning Sign
++ URL: N/A
++ Album name: A Rush Of Blood To The Head
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #14:
++ Artist 1: MAX
++ Artist 2: Ty Dolla $ign
++ Track Name: The Other Side (with MAX & Ty Dolla $ign)
++ URL: N/A
++ Album name: The Greatest Showman: Reimagined
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #15:
++ Artist 1: Ace of Base
++ Track Name: All That She Wants
++ URL: N/A
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #16:
++ Artist 1: Lil Wayne
++ Artist 2: Wiz Khalifa
++ Artist 3: Imagine Dragons
++ Artist 4: X Ambassadors
++ Artist 5: Logic
++ Artist 6: Ty Dolla $ign
++ Track Name: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
++ URL: N/A
++ Album name: Suicide Squad: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #17:
++ Artist 1: Juicy J
++ Artist 2: Wiz Khalifa
++ Artist 3: Ty Dolla $ign
++ Artist 4: Madsonik
++ Artist 5: Kill The Noise
++ Track Name: Shell Shocked (feat. Kill The Noise & Madsonik) - From "Teenage Mutant Ninja Turtles"
++ URL: N/A
++ Album name: Shell Shocked (feat. Kill The Noise & Madsonik) [From "Teenage Mutant Ninja Turtles"]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #18:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: null
++ Album name: MIH-TY
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #19:
++ Artist 1: Chance the Rapper
++ Artist 2: Ty Dolla $ign
++ Artist 3: Anderson .Paak
++ Artist 4: BJ The Chicago Kid
++ Artist 5: Raury
++ Track Name: Blessings
++ URL: N/A
++ Album name: Coloring Book
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #20:
++ Artist 1: The Game
++ Artist 2: YG
++ Artist 3: Ty Dolla $ign
++ Artist 4: Jeremih
++ Track Name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++ URL: N/A
++ Album name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++------------------------------------------------------------------------------------------------------------------
++------------------------------------------------------------------------------------------------------------------
++ 2019-Feb-24 22:50
++ Command: spotify-this-song			 Input: :
++------------------------------------------------------------------------------------------------------------------
++ Hello Dave, here are the Spotify results for THE SIGN:
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #1:
++ Artist 1: Lil Wayne
++ Artist 2: Ty Dolla $ign
++ Artist 3: XXXTENTACION
++ Track Name: Scared of the Dark (feat. XXXTENTACION)
++ URL: N/A
++ Album name: Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #2:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: https://p.scdn.co/mp3-preview/af237206f611b722f48620ece049aff3b8650e77?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Harry Styles
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #3:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: Impatient
++ URL: N/A
++ Album name: Late Nights: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #4:
++ Artist 1: Ty Dolla $ign
++ Artist 2: The Weeknd
++ Artist 3: Wiz Khalifa
++ Artist 4: Mustard
++ Track Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
++ URL: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #5:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: N/A
++ Album name: The Light
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #6:
++ Artist 1: Harry Styles
++ Track Name: Sign of the Times
++ URL: https://p.scdn.co/mp3-preview/9801b9239ad1b833f1317574ee55b9d7b8426ff1?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Sign of the Times
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #7:
++ Artist 1: Quality Control
++ Artist 2: Lil Yachty
++ Artist 3: Ty Dolla $ign
++ Track Name: Movin’ Up
++ URL: N/A
++ Album name: Quality Control: Control The Streets Volume 1
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #8:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Lil Wayne
++ Artist 3: The-Dream
++ Track Name: Love U Better (feat. Lil Wayne & The-Dream)
++ URL: https://p.scdn.co/mp3-preview/8917010fb6f1883ff95e85abf35428d98904f29b?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #9:
++ Artist 1: Mac Miller
++ Artist 2: Ty Dolla $ign
++ Track Name: Cinderella (feat. Ty Dolla $ign)
++ URL: https://p.scdn.co/mp3-preview/1f797d8ec6a6ca7dd84d9a6d496bc92748d24557?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Divine Feminine
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #10:
++ Artist 1: Ace of Base
++ Track Name: The Sign
++ URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #11:
++ Artist 1: Lil Durk
++ Artist 2: Ty Dolla $ign
++ Artist 3: A Boogie Wit da Hoodie
++ Track Name: 100 Grand (feat. Ty Dolla $ign & A Boogie wit da Hoodie)
++ URL: N/A
++ Album name: Signed To The Streets 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #12:
++ Artist 1: Ty Dolla $ign
++ Artist 2: Tory Lanez
++ Track Name: Droptop in the Rain (feat. Tory Lanez)
++ URL: https://p.scdn.co/mp3-preview/ffa127c9856a0c60b5fcddf57ead126dfba2d390?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Beach House 3
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #13:
++ Artist 1: Coldplay
++ Track Name: Warning Sign
++ URL: https://p.scdn.co/mp3-preview/aa7d87a8e2ac9aa7261c7640548a18930572043d?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: A Rush Of Blood To The Head
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #14:
++ Artist 1: MAX
++ Artist 2: Ty Dolla $ign
++ Track Name: The Other Side (with MAX & Ty Dolla $ign)
++ URL: https://p.scdn.co/mp3-preview/a3c926a4a3a8876a61b09cd54ea343e876092321?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Greatest Showman: Reimagined
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #15:
++ Artist 1: Ace of Base
++ Track Name: All That She Wants
++ URL: https://p.scdn.co/mp3-preview/b176774bc04182501c2d5d201afda143b1193f31?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: The Sign (US Album) [Remastered]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #16:
++ Artist 1: Lil Wayne
++ Artist 2: Wiz Khalifa
++ Artist 3: Imagine Dragons
++ Artist 4: X Ambassadors
++ Artist 5: Logic
++ Artist 6: Ty Dolla $ign
++ Track Name: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
++ URL: https://p.scdn.co/mp3-preview/96f9689e58c4d6188cc269c0c2089036c3817a2e?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Suicide Squad: The Album
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #17:
++ Artist 1: Juicy J
++ Artist 2: Wiz Khalifa
++ Artist 3: Ty Dolla $ign
++ Artist 4: Madsonik
++ Artist 5: Kill The Noise
++ Track Name: Shell Shocked (feat. Kill The Noise & Madsonik) - From "Teenage Mutant Ninja Turtles"
++ URL: https://p.scdn.co/mp3-preview/26fa73b8c2e9ce91efb44fad48c5a38b2e48dc11?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Shell Shocked (feat. Kill The Noise & Madsonik) [From "Teenage Mutant Ninja Turtles"]
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #18:
++ Artist 1: Jeremih
++ Artist 2: Ty Dolla $ign
++ Track Name: The Light
++ URL: N/A
++ Album name: MIH-TY
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #19:
++ Artist 1: Chance the Rapper
++ Artist 2: Ty Dolla $ign
++ Artist 3: Anderson .Paak
++ Artist 4: BJ The Chicago Kid
++ Artist 5: Raury
++ Track Name: Blessings
++ URL: https://p.scdn.co/mp3-preview/ca5047ad569d9860b850475f22cb482c8240e7a2?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Coloring Book
++------------------------------------------------------------------------------------------------------------------
++ TRACK RESULT #20:
++ Artist 1: The Game
++ Artist 2: YG
++ Artist 3: Ty Dolla $ign
++ Artist 4: Jeremih
++ Track Name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++ URL: https://p.scdn.co/mp3-preview/9c69bc8673b0babe31f2d75c6579d368d2093531?cid=fa0e976577a240fc8b51047c8b2340e8
++ Album name: Down To Fuck (feat. YG, Ty Dolla $ign, Jeremih)
++------------------------------------------------------------------------------------------------------------------
