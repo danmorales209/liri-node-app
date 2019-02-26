@@ -325,7 +325,7 @@ if (process.argv[2]) {
 
             // Check for data from API
             if (response.data.Response !== "True") { // no data found from the API
-                responseToLog = `I'm sorry Dave, I couldn't find any movies with the title ${input.toUpperCase()}\n${printBreak()}`;
+                responseToLog = `+ I'm sorry Dave, I couldn't find any movies with the title ${input.toUpperCase()}\n${printBreak()}`;
             }
             else { // results found
 
@@ -374,8 +374,7 @@ if (process.argv[2]) {
 else {
 
     let logString = logCommand("No input", "None", false);
-    //console.log(logString);
-    
-    fs.appendFileSync("log.txt",logString);
+
+    fs.appendFileSync("log.txt", logString);
     printCommands('');
 }
