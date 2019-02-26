@@ -37,18 +37,23 @@ Now you are ready to go! From the console, you can access LIRI by typing:
 |concert-this|  Use this to find a list of upcoming events for the inputted band / artist | `node liri.js concert-this Cake` |
 |do-what-it-says|  LIRI will read 'random.txt' and attempt to interpret the command and input | `node liri.js do-what-it-says` |
 
-## Examples
+LIRI will log all of you commands and results so you can look them over at your convenience. See [log.txt](log.txt) for an example of past logged queries
 
-1. Case: No Input
+## Examples
 
 | Case | Entry | Output |
 |:---: |:-----:|:------:| 
-| No Entry | ![console-example](img/entry.png) | ![console-response](img/no-input-result.png) |
-| Bad Command | ![console-example](img/wrong-input-entry.png) | ![console-response](img/wrong-input-result.png) |
 | concert-this | ![console-example](img/concert-this-entry.png) | ![console-response](img/concert-this-response.png) |
+| spotify-this-song | ![console-example](img/spotify-this-entry.png) | ![console-response](img/spotify-this-response.png) |
+| movie-this | ![console-example](img/movie-this-entry.png) | ![console-response](img/movie-this-response.png) |
+| No Entry | ![console-example](img/entry.png) | ![console-response](img/no-input-result.png) |
+| do-what-it-says | ![console-example](img/random-entry.png) | ![console-response](img/random-response.png) |
+| Bad Command | ![console-example](img/wrong-input-entry.png) | ![console-response](img/wrong-input-result.png) |
 | concert-this: No argument | ![console-example](img/concert-this-empty-entry.png) | ![console-response](img/concert-this-empty-response-1.png) |
 | concert-this: no results | ![console-example](img/concert-this-wrong-entry.png) | ![console-response](img/concert-this-wrong-response.png) |
-| spotify-this-song | ![console-example](img/spotify-this-entry.png) | ![console-response](img/spotify-this-response.png) |
 | spotify-this-song: No argument | ![console-example](img/spotify-this-empty-entry.png) | ![console-response](img/spotify-this-empty-response-1.png) |
 | spotify-this-song: no results | ![console-example](img/spotify-this-wrong-entry.png) | ![console-response](img/spotify-this-wrong-response.png) |
+| movie-this: No argument | ![console-example](img/movie-this-empty.png) | ![console-response](img/movie-this-empty-response.png) |
+| movie-this: no results | ![console-example](img/movie-this-wrong-entry.png) | ![console-response](img/movie-this-wrong-response.png) |
+
 

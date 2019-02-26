@@ -222,7 +222,7 @@ if (process.argv[2]) {
             let events = response.data;
 
             // No response for the given query 
-            if (events === '\n{warn=Not found}\n') {
+            if (response.status != 200) {
                 responseToLog = `${printBreak()}+ I'm sorry Dave, I couldn't find any events for ${input}.\n${printBreak()}`;
                 console.log(responseToLog);
             }
@@ -256,7 +256,14 @@ if (process.argv[2]) {
                 }
             });
         }).catch(function (err) {
-            console.error(err);
+            let errorString =`\n${printBreak()}+ I'm sorry Dave, I recieved the following error for ${input.toUpperCase()}: ${err.response.data.errorMessage +'\n' + printBreak()}` ;
+            //console.error(err.response);
+            console.log(errorString);
+            fs.appendFile("log.txt", errorString, function (err) {
+                if (err) {
+                    return console.log(err);
+                }
+            });
         });
     } // End concert-this
 
