@@ -42,10 +42,13 @@ Now you are ready to go! From the console, you can access LIRI by typing:
 1. Case: No Input
 
 | Case | Entry | Output |
-|------|-------|--------| 
+|:---: |:-----:|:------:| 
 | No Entry | ![console-example](img/entry.png) | ![console-response](img/no-input-result.png) |
 | Bad Command | ![console-example](img/wrong-input-entry.png) | ![console-response](img/wrong-input-result.png) |
 | concert-this | ![console-example](img/concert-this-entry.png) | ![console-response](img/concert-this-response.png) |
 | concert-this: No argument | ![console-example](img/concert-this-empty-entry.png) | ![console-response](img/concert-this-empty-response-1.png) |
 | concert-this: no results | ![console-example](img/concert-this-wrong-entry.png) | ![console-response](img/concert-this-wrong-response.png) |
+| spotify-this-song | ![console-example](img/spotify-this-entry.png) | ![console-response](img/spotify-this-response.png) |
+| spotify-this-song: No argument | ![console-example](img/spotify-this-empty-entry.png) | ![console-response](img/spotify-this-empty-response-1.png) |
+| spotify-this-song: no results | ![console-example](img/spotify-this-wrong-entry.png) | ![console-response](img/spotify-this-wrong-response.png) |
 

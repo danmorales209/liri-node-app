@@ -279,8 +279,7 @@ if (process.argv[2]) {
             }
 
             if (data.tracks.items.length === 0) { // No data from query
-                responseToLog = `\n${printBreak()}I'm sorry Dave, I couldn't find any songs titled "${input}\n${printBreak()}".`
-                console.log(responseToLog);
+                responseToLog = `\n${printBreak()}+ I'm sorry Dave, I couldn't find any songs titled "${input}".\n${printBreak()}`
             }
             else { // found something
 
