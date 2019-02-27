@@ -63,4 +63,5 @@ node_modules
 .next
 
 homework_instructions.md
-log.txt
+package-lock.json
+JSON-examples
